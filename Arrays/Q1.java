@@ -8,7 +8,7 @@ public class Q1 {
         
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter the number of students:");
+        System.out.print("Enter the number of students: ");
 
         int n = input.nextInt();
 
