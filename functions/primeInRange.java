@@ -21,6 +21,6 @@ public class primeInRange {
     }
 
     public static void main(String[] args) {
-        System.out.println("prime number in range between 2 to "+ prime(10));
+        // System.out.println("prime number in range between 2 to "+ prime(10));
     }
 }
