@@ -2,6 +2,7 @@ package Arrays;
 public class subArray {
     
     public static void printSubarrays(int numbers[] ) {
+        int ts = 0;
         for (int i = 0; i < numbers.length; i++) {
             int start = i;
             for (int j = i; j < numbers.length; j++) {
@@ -9,11 +10,13 @@ public class subArray {
                 for (int k = start; k <= end; k++){         //print
                     System.out.print(numbers[k] + " ");     // print sub arrays
                 }
+                ts++;
                 System.out.println();
             }
             System.out.println();
             
         }
+        System.out.println("total subArrays: "+ ts);
     }
 
 
