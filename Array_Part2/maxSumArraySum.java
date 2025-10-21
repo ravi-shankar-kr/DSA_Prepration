@@ -13,6 +13,7 @@ public class maxSumArraySum{
             int start = i;
             for (int j = i; j < numbers.length; j++) {
                 int end = j;
+                currSum = 0;
                 for (int k = start; k <= end; k++){         //print
                     System.out.print(numbers[k] + " ");     // print sub arrays
 
